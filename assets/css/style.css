@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 
 header {
@@ -16,6 +16,7 @@ header {
     color: gray;
     padding: 20px 60px 20px 0;
     position: sticky;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
  h1 {
@@ -44,7 +45,7 @@ header {
   }
 
   .background {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/programming-web-development-code-wallpaper-preview.jpg);
     background-size: cover;
     background-position: 100%;
     display: flex;
@@ -61,7 +62,9 @@ header {
     height: 100px;
     width: 100px;
     top: 180px;
-    right: 70px;
+    right: 30px;
+    border: 5px solid gray;
+    border-radius: 10px 10px 10px 10px;
   }
 
 
@@ -70,18 +73,87 @@ header {
     color:gray;
     background-color: blanchedalmond;
     top: 200px;
-    right: 60px;
+    right: 20px;
     font-size: 200%;
     padding: 10px;
+    border: 5px solid gray;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .card {
+    background-color:blanchedalmond;
+    border: 5px solid paleturquoise;
+    margin-top: 100px;
+    padding: 0px 100px 30px 100px;
+    margin: 100px 50px 0 50px;
+  }
+
+  .card h2 {
+    border: 5px solid paleturquoise;
+    position: relative;
+    bottom: 30px;
+    color: grey;
+    font-size: 200%;
+    background-color:blanchedalmond ;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .card p {
+    line-height: 1.6;
+    font-style: oblique;
+  }
+
+  .card h3  {
+    border: 5px solid grey;
+    color: white;
+    font-size: 100%;
+    background-color: grey ;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
   }
 
 
-  @media screen and (max-width: 768px) {
+.Description {
+  border: 5px solid grey;
+    color: paleturquoise;
+    font-size: 100%;
+    background-color: grey ;
+    padding: 10px 10px 10px 10px;
+    margin-top: px;
+}
+
+.PW-img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+@media screen and (max-width: 768px) {
     header {
       flex-direction: column;
     }
-     
-   
+
     nav ul {
         margin-top: 20px;
     }
