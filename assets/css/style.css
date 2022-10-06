@@ -15,7 +15,6 @@ header {
     background-color: paleturquoise;
     color: gray;
     padding: 20px 60px 20px 0;
-    position: sticky;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
@@ -115,7 +114,7 @@ header {
     font-size: 100%;
     background-color: grey ;
     padding: 10px 10px 10px 10px;
-    margin-top: 20px;
+    margin-top: 20px
   }
 
 
@@ -125,27 +124,78 @@ header {
     font-size: 100%;
     background-color: grey ;
     padding: 10px 10px 10px 10px;
-    margin-top: px;
 }
 
-.PW-img {
+
+.img {
   width: 100%;
 }
 
+.hover:hover {
+ box-shadow: gray 15px 15px;
+}
+
+.img2 {
+  width: 50%;
+}
+
+
+.workcard h3 {
+  width: 50%;
+}
+
+.workcard .Description {
+  width: 50%;
+}
+
+.contactme a {
+   color:gray;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+footer { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: paleturquoise;
+    color: gray;
+    padding: 20px 60px 20px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
 
 
 
+div a {
+    color:gray;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
 
 
 
+div a:hover {
+    color: burlywood;
+    font-size: larger;
+  }
 
+  .margins {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
+  footer {
+    margin-top: 10px;
+  }
 
-
-
-
-
-  
+  footer h2 {
+    font-size: 200%;
+    background-color:blanchedalmond;
+    padding: 10px 15px 10px 20px;
+  }
 
 
 
@@ -159,3 +209,14 @@ header {
     }
 }
 
+
+
+@media screen and (max-width: 575px) {
+  .card {
+    font-size: smaller;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+}
