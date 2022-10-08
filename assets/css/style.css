@@ -1,10 +1,14 @@
-
+/* root Element */
 :root {
 
   --blue-color: paleturquoise;
   --cream: blanchedalmond; 
   --grey:gray;
 }
+
+/* End of root Element */
+
+/* Universal/Global CSS selectors */
 
 * {
     box-sizing: border-box;
@@ -16,6 +20,9 @@ body {
     background-color: lightgray;
 }
 
+/* End of Universal/Global CSS selectors */
+
+/* Header and Nav styles */
 
 header {
     display: flex;
@@ -52,6 +59,10 @@ header {
     font-size: larger;
   }
 
+  /* End of Header and Nav styles */
+
+  /* Style for portfolio title and image */
+
   .background {
     background-image: url(../images/programming-web-development-code-wallpaper-preview.jpg);
     background-size: cover;
@@ -87,6 +98,10 @@ header {
     border: 5px solid var(--grey);
     border-radius: 10px 10px 10px 10px;
   }
+
+   /* End of Style for portfolio title and image */
+
+    /* Style for About Me and My work section */
 
   .card {
     display: flex;
@@ -165,6 +180,10 @@ header {
 
 }
 
+ /* End of Style for About Me and My work section */
+
+  /* Footer style for Contact Me Section */
+
 
 footer {
   display: flex;
@@ -201,7 +220,9 @@ div a:hover {
   color: var(--cream);
 }
 
+/* Footer style for Contact Me Section */
 
+/* media queries for screen compatibility (Tablet and large smartphones) */
 
 @media screen and (max-width: 768px) {
     header {
@@ -221,7 +242,7 @@ div a:hover {
     }
 }
 
-
+/* media queries for screen compatibility (Smaller smartphones) */
 
 @media screen and (max-width: 575px) {
   .card {
@@ -236,3 +257,5 @@ div a:hover {
     font-size: 15px;
   }
 } 
+
+/* End media queries */
